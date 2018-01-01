@@ -1,0 +1,40 @@
+{
+  "name": "postits",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "postit_id": {
+      "type": "Number",
+      "generated": true,
+      "id": true
+    },
+    "board_id": {
+      "type": "number"
+    },
+    "member_id": {
+      "type": "number"
+    },
+    "sentence": {
+      "type": "string"
+    },
+    "x": {
+      "type": "number"
+    },
+    "y": {
+      "type": "number"
+    },
+    "created_at": {
+      "type": "date"
+    },
+    "updated_at": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
