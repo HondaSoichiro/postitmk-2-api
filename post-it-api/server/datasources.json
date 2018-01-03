@@ -4,13 +4,13 @@
     "connector": "memory"
   },
   "mysqlDs": {
-    "host": "Toyo",
+    "host": "tokipldb.crpjzn1bibow.ap-northeast-1.rds.amazonaws.com",
     "port": 3306,
     "url": "",
-    "database": "dev_post_it",
-    "password": "",
+    "database": "postit",
+    "password": "sket1218",
     "name": "mysqlDs",
-    "user": "root",
+    "user": "poru",
     "connector": "mysql"
   }
 }

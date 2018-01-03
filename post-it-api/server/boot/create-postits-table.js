@@ -1,11 +1,12 @@
-
+/*
+postits_table作成とテストレコード挿入
+server/boot配下はサーバー起動時に必ず走る処理
 
 module.exports = function(app) {
   app.dataSources.mysqlDs.automigrate('postits', function(err) {
     if (err) throw err;
 
     app.models.postits.create([{
-//      postit_id: '1',
       board_id: '2',
       member_id: '3',
       sentence: 'jdjdjdjdkd',
@@ -18,3 +19,4 @@ module.exports = function(app) {
     });
   });
 };
+*/
