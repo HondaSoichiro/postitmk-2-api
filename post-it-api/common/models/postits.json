@@ -8,8 +8,7 @@
   "properties": {
     "postit_id": {
       "type": "Number",
-      "id": true,
-      "generated": true
+      "id": true
     },
     "board_id": {
       "type": "number"
