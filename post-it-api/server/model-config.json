@@ -38,5 +38,9 @@
   "postits": {
     "dataSource": "mysqlDs",
     "public": true
+  },
+  "members": {
+    "dataSource": "mysqlDs",
+    "public": true
   }
 }
