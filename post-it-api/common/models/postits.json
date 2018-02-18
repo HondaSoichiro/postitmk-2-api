@@ -26,28 +26,22 @@
     "y": {
       "type": "number"
     },
+    "is_deleted": {
+      "type": "number"
+    },
     "created_at": {
       "type": "date"
     },
     "updated_at": {
+      "type": "date"
+    },
+    "deleted_at": {
       "type": "date"
     }
   },
   "validations": [],
   "relations": {},
   "acls": [
-    {
-      "accessType": "*",
-      "principalType": "ROLE",
-      "principalId": "$everyone",
-      "permission": "ALLOW"
-    },
-    {
-      "accessType": "*",
-      "principalType": "ROLE",
-      "principalId": "$everyone",
-      "permission": "ALLOW"
-    },
     {
       "accessType": "*",
       "principalType": "ROLE",
