@@ -6,7 +6,7 @@
     "validateUpsert": true
   },
   "properties": {
-    "member_id": {    
+    "member_id": {
       "type": "number",
       "id": "true",
       "generated": true
@@ -16,16 +16,16 @@
   "relations": {},
   "acls": [
     {
-      "accessType": "*",
       "principalType": "ROLE",
       "principalId": "$everyone",
-      "permission": "ALLOW"
+      "permission": "ALLOW",
+      "property": "findOne"
     },
     {
-      "accessType": "*",
       "principalType": "ROLE",
       "principalId": "$everyone",
-      "permission": "ALLOW"
+      "permission": "ALLOW",
+      "property": "find"
     }
   ],
   "methods": {}
