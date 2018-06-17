@@ -4,13 +4,13 @@
     "connector": "memory"
   },
   "mysqlDs": {
-    "host": "postitmk-2db.cpebl7ye68ql.ap-northeast-1.rds.amazonaws.com",
+    "host": "postitmk-2_mysql_1",
     "port": 3306,
     "url": "",
     "database": "postitdb",
     "password": "sket1218",
     "name": "mysqlDs",
-    "user": "poru",
+    "user": "root",
     "connector": "mysql"
   }
 }
